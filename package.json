@@ -1,0 +1,40 @@
+{
+  "name": "nodewar-tools",
+  "description": "Tools for interacting with Nodewar API",
+  "version": "0.1.0",
+  "homepage": "https://github.com/mikeycgto/nodewar-tools",
+  "author": {
+    "name": "mikeycgto",
+    "email": "mikeycgto@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikeycgto/nodewar-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mikeycgto/nodewar-tools/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/mikeycgto/nodewar-tools/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/nodewar-tools",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.15",
+    "restler":"~2.0.1",
+    "optimist":"~0.3.7",
+    "read":"~1.0.4"
+  },
+  "bin": {
+    "nodewar-tools": "./bin/nodewar-tools"
+  },
+  "keywords": []
+}
